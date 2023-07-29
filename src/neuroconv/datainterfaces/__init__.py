@@ -4,6 +4,7 @@ from .behavior.deeplabcut.deeplabcutdatainterface import DeepLabCutInterface
 from .behavior.miniscope.miniscopedatainterface import MiniscopeBehaviorInterface
 from .behavior.sleap.sleapdatainterface import SLEAPInterface
 from .behavior.video.videodatainterface import VideoInterface
+from .behavior.keypointmoseq.keypointmoseqdatainterface import KeypointMoseqSubjectInterface
 
 # Ecephys
 from .ecephys.alphaomega.alphaomegadatainterface import AlphaOmegaRecordingInterface
@@ -147,6 +148,7 @@ interface_list = [
     DeepLabCutInterface,
     SLEAPInterface,
     MiniscopeBehaviorInterface,
+    KeypointMoseqSubjectInterface,
     # Text
     CsvTimeIntervalsInterface,
     ExcelTimeIntervalsInterface,
@@ -177,6 +179,7 @@ interfaces_by_category = dict(
     behavior=dict(
         Video=VideoInterface,
         DeepLabCut=DeepLabCutInterface,
+        KeypointMoseq=KeypointMoseqSubjectInterface,
         SLEAP=SLEAPInterface,
         # Text
         CsvTimeIntervals=CsvTimeIntervalsInterface,

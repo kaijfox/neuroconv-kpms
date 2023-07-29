@@ -16,3 +16,8 @@ DeepLabCut
 SLEAP
 -----
 .. automodule:: neuroconv.datainterfaces.behavior.sleap.sleapdatainterface
+
+
+Keypoint-MoSeq
+--------------
+.. automodule:: neuroconv.datainterfaces.behavior.keypointmoseq.keypointmoseqdatainterface

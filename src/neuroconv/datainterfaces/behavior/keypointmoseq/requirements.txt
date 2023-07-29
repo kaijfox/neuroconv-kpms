@@ -1,0 +1,3 @@
+ndx-pose @ git+https://github.com/rly/ndx-pose@main
+ndx-events
+keypoint-moseq

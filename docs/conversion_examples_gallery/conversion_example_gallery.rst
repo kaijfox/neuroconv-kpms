@@ -92,6 +92,7 @@ Behavior
     Audio <behavior/audio>
     DeepLabCut <behavior/deeplabcut>
     SLEAP <behavior/sleap>
+    Keypoint Moseq <behavior/keypointmoseq>
     Videos <behavior/video>
 
 
